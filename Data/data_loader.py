@@ -1,7 +1,6 @@
 import os
 import time
 import yfinance as yf
-
 def load_data():
     day = time.localtime().tm_mday
 
