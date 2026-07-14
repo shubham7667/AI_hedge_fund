@@ -1,0 +1,64 @@
+| Module                             | Covers Phases  |    |
+| ---------------------------------- | -------------- |    |
+| `data/`                            | 1              |    |
+| `features/`                        | 2, 3, 4        |    |
+| `targets/`                         | 5              |    |
+| `models/`                          | 6, 7, 8, 9, 10 |    |
+| `backtesting/`                     | 11             |    |
+| `features/fundamental_features.py` | 12             |    |
+| `features/sentiment_features.py`   | 13             |    |
+| `agents/`                          | 14             |    |
+| `rag/`                             | 15             |    |
+| `llm/`                             | 16             |    |
+| `frontend/`                        | 17             |    |
+| `deployment/` or `api/`            | 18             |    |
+                                                           |
+-----------------------------------------------------------
+AI_Hedge_Fund/
+│
+├── data/
+│   ├── downloader.py
+│   ├── loader.py
+│   └── preprocessing.py
+│
+├── features/
+│   ├── technical_indicators.py
+│   ├── price_features.py
+│   ├── time_features.py
+│   ├── fundamental_features.py
+│   └── sentiment_features.py
+│
+├── targets/
+│   └── target_generator.py
+│
+├── models/
+│   ├── train.py
+│   ├── predict.py
+│   ├── evaluate.py
+│   └── save_model.py
+│
+├── backtesting/
+│   ├── strategy.py
+│   ├── portfolio.py
+│   └── metrics.py
+│
+├── agents/
+│   ├── supervisor_agent.py
+│   ├── market_agent.py
+│   ├── prediction_agent.py
+│   ├── news_agent.py
+│   ├── risk_agent.py
+│   ├── report_agent.py
+│   └── portfolio_agent.py
+│
+├── rag/
+│   ├── vector_store.py
+│   ├── retriever.py
+│   └── embeddings.py
+│
+├── api/
+│   └── server.py
+│
+├── frontend/
+│
+└── main.py
