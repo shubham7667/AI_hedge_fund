@@ -1,2 +1,5 @@
 requests_html
 yfinance
+dotenv
+tavily
+BeautifulSoup4

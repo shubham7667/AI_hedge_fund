@@ -40,3 +40,8 @@ def load_daily_data():
     )
     data.to_csv(file_name,index=False)
     return data
+
+def get_company_information(company:str):
+    data = yf.Ticker(company)
+    return data
+    
