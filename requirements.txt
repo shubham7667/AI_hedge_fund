@@ -3,3 +3,6 @@ yfinance
 dotenv
 tavily
 BeautifulSoup4
+scikit-learn
+seaborn
+matplotlib
