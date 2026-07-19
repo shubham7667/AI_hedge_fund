@@ -1,0 +1,10 @@
+EMA Crossover
+SMA Golden Cross / Death Cross
+MACD Crossover
+RSI Mean Reversion
+Bollinger Band Reversion
+VWAP Strategy
+Opening Range Breakout (ORB)
+Supertrend Strategy
+Donchian Channel Breakout
+Support & Resistance Breakou
