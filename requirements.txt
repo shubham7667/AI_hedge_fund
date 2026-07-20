@@ -8,3 +8,4 @@ seaborn
 matplotlib
 mplfinance==0.12.10b0
 plotly
+typing

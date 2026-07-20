@@ -1,4 +1,4 @@
-from base_strategy import BaseStrategy
+from .base_strategy import BaseStrategy
 
 
 class EMAStrategy(BaseStrategy):
@@ -136,6 +136,7 @@ class EMAStrategy(BaseStrategy):
                 f"and "
                 f"{self._to_float2(short_ema_latest)} > {self._to_float2(long_ema_latest)}"
             )
+            
 
         elif (
             short_ema_prev > long_ema_prev
@@ -195,15 +196,17 @@ class EMAStrategy(BaseStrategy):
                     trend_info,
                     volume_info
                 )
+        
         return {
         "signal": signal,
-        "entry_price": latest_close,
+        "price": latest_close,
         "stop_loss": stop_loss,
         "target": target,
         "confidence": confidence,
         "reason": reason,
         "ema_slope": trend_info,
         "volume": volume_info,
+       "date": data.index[-1]
         }
         
         
